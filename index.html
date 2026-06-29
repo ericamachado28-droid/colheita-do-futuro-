@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colheita do Futuro | Bio-Digital Agro</title>
+  
+  <!-- Fontes Futuristas do Google Fonts -->
+  <link href="https://googleapis.com" rel="stylesheet">
+  
+  <!-- Link para o arquivo CSS externo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER E NAVEGAÇÃO -->
+  <header>
+    <div class="logo">FUTURE_HARVEST //</div>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#paineis">Monitoramento</a>
+      <a href="#tecnologias">Tecnologias</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION (DESTAQUE PRINCIPAL) -->
+  <section id="home" class="hero">
+    <h1>Colheita do Futuro</h1>
+    <p style="color: #e2f0d9; max-width: 600px; margin-bottom: 30px;">
+      O cruzamento perfeito entre a biologia molecular e a automação cibernética. Gerencie suas estufas verticais autônomas com um único clique.
+    </p>
+    <button id="btn-colher" class="btn-cyber">SOLICITAR DRONES</button>
+  </section>
+
+  <!-- GRID DE CARDS (PAINÉIS E CONTROLES) -->
+  <section id="paineis" class="grid-container">
+    
+    <!-- Card 1: Monitoramento de Sensores em Tempo Real -->
+    <div class="card-cyber">
+      <h3>Sensores Biométricos</h3>
+      <p style="margin-top: 10px;">Status das culturas hidropônicas em tempo real:</p>
+      <ul style="list-style: none; margin-top: 15px;">
+        <li style="margin-bottom: 10px;">
+          Temperatura Core: <span id="sensor-temp" style="color: #39ff14; font-weight: bold;">22.5°C</span>
+        </li>
+        <li>
+          Umidade do Ar: <span id="sensor-umid" style="color: #00f0ff; font-weight: bold;">68%</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Card 2: Painel de Controle Operacional -->
+    <div class="card-cyber">
+      <h3>Atuadores Remotos</h3>
+      <p style="margin-bottom: 20px;">Envie comandos diretos para os sistemas automatizados da fazenda:</p>
+      <button id="btn-irrigar" class="btn-cyber" style="width: 100%;">ATIVAR IRRIGAÇÃO</button>
+    </div>
+
+    <!-- Card 3: Status das Estufas -->
+    <div class="card-cyber" id="tecnologias">
+      <h3>Sistemas Ativos</h3>
+      <p style="margin-top: 10px;">• Algoritmo de IA Preditiva: <span style="color: #39ff14;">ONLINE</span></p>
+      <p>• Iluminação LED Espectral: <span style="color: #39ff14;">EFICIENTE</span></p>
+      <p>• Nutrição Robótica: <span style="color: #ffd700;">AGUARDANDO</span></p>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="text-align: center; padding: 30px; border-top: 1px solid rgba(57, 255, 20, 0.1); font-size: 0.8rem; color: rgba(226, 240, 217, 0.5);">
+    <p>&copy; 2026 Future Harvest - Sistemas Agrícolas Autônomos.</p>
+  </footer>
+
+  <!-- Link para o arquivo JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
